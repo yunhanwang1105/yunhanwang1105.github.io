@@ -12,7 +12,7 @@ redirect_from:
 
 I am a Computer Science graduate (Honours & Cum Laude) from the Delft University of Technology. My research interest lies at the intersection of computer vision and human computer interaction. I completed my honours research on gaze estimation (2022-2023) under the supervision of Dr. Xucong Zhang in the Computer Vision lab at TU Delft. 
 
-## Latest news
+## Latest News
 
 [08.2023] One paper about my honours research is released on arXiv.
 
