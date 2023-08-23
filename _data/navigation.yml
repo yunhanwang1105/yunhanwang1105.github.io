@@ -7,8 +7,8 @@ main:
     url: /news/
         
   - title: "CV"
-    url: /files/
+    url: /files/yunhan_CV_aug_2023.pdf
 
   - title: "Captured Elysium"
-    url: /capturedelysium/
+    url: /_pages/capturedelysium.md
     
