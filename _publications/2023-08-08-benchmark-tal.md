@@ -8,4 +8,4 @@ venue: 'ICCV-W'
 paperurl: 
 citation: 
 ---
-Jan Warchocki*, Teodor Oprescu*, **Yunhan Wang***, Alexandru Damacus, Paul Misterka, Robert-Jan Bruintjes, Attila Lengyel, Ombretta Strafforello, Jan van Gemert. [[Paper]]()
+Jan Warchocki<sup>\*</sup>, Teodor Oprescu<sup>\*</sup>, **Yunhan Wang<sup>\*</sup>**, Alexandru Damacus, Paul Misterka, Robert-Jan Bruintjes, Attila Lengyel, Ombretta Strafforello, Jan van Gemert. [[Paper]]()

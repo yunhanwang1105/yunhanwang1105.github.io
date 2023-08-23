@@ -26,6 +26,5 @@ I am a Computer Science graduate (Honours & Cum Laude) from the Delft University
 **Yunhan Wang**, Xiangwei Shi, Shalini De Mello, Hyung Jin Chang, Xucong Zhang. arXiv, 2023.
 
 ### Benchmarking Data Efficiency and Computational Efficiency of Temporal Action Localization Models
-<!-- Jan Warchocki <sup>*</sup>, Teodor Oprescu <sup>*</sup>, Yunhan Wang<sup>*</sup>, Alexandru Damacus, Paul Misterka, Robert-Jan Bruintjes, Attila Lengyel, Ombretta Strafforello, Jan van Gemert. ICCV-W, 2023. -->
+Jan Warchocki<sup>\*</sup>, Teodor Oprescu<sup>\*</sup>, **Yunhan Wang<sup>\*</sup>**, Alexandru Damacus, Paul Misterka, Robert-Jan Bruintjes, Attila Lengyel, Ombretta Strafforello, Jan van Gemert. ICCV-W, 2023.
 
-Jan Warchocki*, Teodor Oprescu*, **Yunhan Wang***, Alexandru Damacus, Paul Misterka, Robert-Jan Bruintjes, Attila Lengyel, Ombretta Strafforello, Jan van Gemert. ICCV-W, 2023.
