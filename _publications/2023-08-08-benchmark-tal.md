@@ -1,10 +1,10 @@
 ---
-title: "Investigation of Architectures and Receptive Fields for Appearance-based Gaze Estimation"
+title: "Benchmarking Data Efficiency and Computational Efficiency of Temporal Action Localization Models"
 collection: publications
 permalink: 
 excerpt: 
-date: 2023-08-23
-venue: 'arXiv'
+date: 2023-08-08
+venue: 'ICCV-W'
 paperurl: 
 citation: 
 ---
