@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Yunhan's about"
+title: 
 excerpt: "About me"
 author_profile: true
 redirect_from: 
