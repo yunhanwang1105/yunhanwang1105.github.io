@@ -51,3 +51,27 @@ author_profile: true
 <img src="/images/elysiums/yunnan-3.jpg" alt="yunnan-3" title="yunnan-3" width="800" height="600" class="center"/> 
 
 <img src="/images/elysiums/yunnan-4.jpg" alt="yunnan-4" title="yunnan-4" width="800" height="600" class="center"/> 
+
+<br/>
+<span style="color:IndianRed">The Bodensee water, best swim I ever had. </span>
+
+<img src="/images/elysiums/bodensee-1.jpg" alt="bodensee-1" title="bodensee-1" width="800" height="600" class="center"/>
+
+<img src="/images/elysiums/bodensee-2.jpg" alt="bodensee-2" title="bodensee-2" width="800" height="600" class="center"/>
+
+<img src="/images/elysiums/bodensee-3.jpg" alt="bodensee-3" title="bodensee-3" width="800" height="600" class="center"/>
+
+<img src="/images/elysiums/bodensee-4.jpg" alt="bodensee-4" title="bodensee-4" width="800" height="600" class="center"/>
+
+<br/>
+<span style="color:IndianRed">Hiking in Bregenz. The Bodensee from another angle! </span>
+
+<img src="/images/elysiums/bregenz-1.jpg" alt="bregenz-1" title="bregenz-1" width="800" height="600" class="center"/>
+
+<img src="/images/elysiums/bregenz-2.jpg" alt="bregenz-2" title="bregenz-2" width="800" height="600" class="center"/> 
+
+<img src="/images/elysiums/bregenz-3.jpg" alt="bregenz-3" title="bregenz-3" width="800" height="600" class="center"/>
+
+<img src="/images/elysiums/bregenz-4.jpg" alt="bregenz-4" title="bregenz-4" width="800" height="600" class="center"/> 
+
+## <span style="color:IndianRed">To be continued...</span> 
