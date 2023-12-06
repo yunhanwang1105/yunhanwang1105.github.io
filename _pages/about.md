@@ -14,7 +14,7 @@ I am pursuing my Master's degree in Machine Learning at the [University of Tübi
 
 ## Latest News
 
-[08.2023] One paper about my honours research is released on arXiv.
+[08.2023] One paper about my honours research is released on [arXiv](https://arxiv.org/abs/2308.09593).
 
 [08.2023] One paper is accepted at the [ICCV 2023 Workshop on AI for Creative Video Editing and Understanding](https://cveu.github.io/).
 
@@ -23,8 +23,8 @@ I am pursuing my Master's degree in Machine Learning at the [University of Tübi
 ## Selected Publications
 
 ### Investigation of Architectures and Receptive Fields for Appearance-based Gaze Estimation
-**Yunhan Wang**, Xiangwei Shi, Shalini De Mello, Hyung Jin Chang, Xucong Zhang. arXiv, 2023.
+**Yunhan Wang**, [Xiangwei Shi](https://x-shi.github.io/), [Shalini De Mello](https://research.nvidia.com/person/shalini-de-mello), [Hyung Jin Chang](https://hyungjinchang.wordpress.com/), [Xucong Zhang](https://www.ccmitss.com/zhang). arXiv, 2023.
 
 ### Benchmarking Data Efficiency and Computational Efficiency of Temporal Action Localization Models
-Jan Warchocki<sup>\*</sup>, Teodor Oprescu<sup>\*</sup>, **Yunhan Wang<sup>\*</sup>**, Alexandru Damacus, Paul Misterka, Robert-Jan Bruintjes, Attila Lengyel, Ombretta Strafforello, Jan van Gemert. ( * denotes equal contribution) ICCV-W, 2023.
+Jan Warchocki<sup>\*</sup>, Teodor Oprescu<sup>\*</sup>, **Yunhan Wang<sup>\*</sup>**, Alexandru Damacus, Paul Misterka, [Robert-Jan Bruintjes](https://rjbruintjes.nl/), [Attila Lengyel](https://attila94.github.io/), [Ombretta Strafforello](https://cvlab-tudelft.github.io/people/ombretta-strafforello/), [Jan van Gemert](https://jvgemert.github.io/). ( * denotes equal contribution) ICCV-W, 2023.
 
