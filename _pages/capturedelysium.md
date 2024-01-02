@@ -74,4 +74,13 @@ author_profile: true
 
 <img src="/images/elysiums/bregenz-4.jpg" alt="bregenz-4" title="bregenz-4" width="800" height="600" class="center"/> 
 
+<br/>
+<span style="color:IndianRed">Winter hike in Oeschinesee. The lake is like a mirror, cool!</span>
+
+<img src="/images/elysiums/oeschinesee-1.jpg" alt="oeschinesee-1" title="oeschinesee-1" width="800" height="600" class="center"/>
+
+<img src="/images/elysiums/oeschinesee-2.jpg" alt="oeschinesee-2" title="oeschinesee-2" width="800" height="600" class="center"/> 
+
+<img src="/images/elysiums/oeschinesee-3.jpg" alt="oeschinesee-3" title="oeschinesee-3" width="800" height="600" class="center"/>
+
 ## <span style="color:IndianRed">To be continued...</span> 
