@@ -8,6 +8,12 @@ redirect_from:
   - /about.html
 ---
 
+<blockquote>
+"Anything one man can imagine, other men can make real.”
+<br>
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &emsp; &ensp; &ensp; &ensp;  ― Jules Verne
+</blockquote>
+
 ## Bio
 
 I am pursuing my Master's degree in Machine Learning at the [University of Tübingen](https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/studium/studiengaenge/machine-learning/), Germany. I obtained my Bachelor's degree in Computer Science with Honours & Cum Laude (highest distinction) from the [Delft University of Technology](https://www.tudelft.nl/en/), Netherlands. My research interest lies at the intersection of computer vision and human computer interaction. I completed my honours research on 3D gaze estimation (2022-2023) under the supervision of [Dr. Xucong Zhang](https://www.ccmitss.com/zhang) in the [Computer Vision lab](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/intelligent-systems/pattern-recognition-bioinformatics/computer-vision-lab) at TU Delft. 
