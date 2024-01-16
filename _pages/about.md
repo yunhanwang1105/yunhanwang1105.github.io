@@ -9,9 +9,7 @@ redirect_from:
 ---
 
 <blockquote>
-"Anything one man can imagine, other men can make real.”
-<br>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &emsp; &ensp; &ensp; &ensp;  ― Jules Verne
+"Anything one person can imagine, other people can make real.”
 </blockquote>
 
 ## Bio
