@@ -11,7 +11,7 @@ redirect_from:
 <blockquote>
 <span style="color: #001233; font-family: Garamond; font-size: 1.25em;"><em>"Anything one person can imagine, other people can make real.”</em></span>
 <br>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &emsp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &emsp; &emsp; &emsp; &emsp; 
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &emsp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &emsp; &emsp; &emsp;
 <span style="color: #001233; font-family: Garamond; font-size: 1.2em;">― Jules Verne</span>
 </blockquote>
 
