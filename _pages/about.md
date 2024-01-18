@@ -17,7 +17,7 @@ redirect_from:
 
 ## Bio
 
-I am pursuing my Master's degree in Machine Learning at the [University of Tübingen](https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/studium/studiengaenge/machine-learning/), Germany. I obtained my Bachelor's degree in Computer Science with Honours & Cum Laude (highest distinction) from the [Delft University of Technology](https://www.tudelft.nl/en/), Netherlands. My research interest lies at the intersection of computer vision and human computer interaction. I completed my honours research on 3D gaze estimation (2022-2023) under the supervision of [Dr. Xucong Zhang](https://www.ccmitss.com/zhang) in the [Computer Vision lab](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/intelligent-systems/pattern-recognition-bioinformatics/computer-vision-lab) at TU Delft. 
+I am pursuing my Master's degree in Machine Learning at the [University of Tübingen](https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/studium/studiengaenge/machine-learning/), Germany. I obtained my Bachelor's degree in Computer Science with Honours & Cum Laude (highest distinction) from the [Delft University of Technology](https://www.tudelft.nl/en/), Netherlands. My research interest lies at the intersection of computer vision and human computer interaction. Specifically, my current research plan is to develop a talking virtual avatar that can act like a human being. I completed my honours research on 3D gaze estimation (2022-2023) under the supervision of [Dr. Xucong Zhang](https://www.ccmitss.com/zhang) in the [Computer Vision lab](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/intelligent-systems/pattern-recognition-bioinformatics/computer-vision-lab) at TU Delft. 
 
 ## Latest News
 
@@ -30,8 +30,8 @@ I am pursuing my Master's degree in Machine Learning at the [University of Tübi
 ## Selected Publications
 
 ### Investigation of Architectures and Receptive Fields for Appearance-based Gaze Estimation
-**Yunhan Wang**, [Xiangwei Shi](https://x-shi.github.io/), [Shalini De Mello](https://research.nvidia.com/person/shalini-de-mello), [Hyung Jin Chang](https://hyungjinchang.wordpress.com/), [Xucong Zhang](https://www.ccmitss.com/zhang). arXiv, 2023.
+**Yunhan Wang**, [Xiangwei Shi](https://x-shi.github.io/), [Shalini De Mello](https://research.nvidia.com/person/shalini-de-mello), [Hyung Jin Chang](https://hyungjinchang.wordpress.com/), [Xucong Zhang](https://www.ccmitss.com/zhang). arXiv, 2023. [[Paper]](https://arxiv.org/abs/2308.09593) [[Code]](https://github.com/yunhanwang1105/GazeTech)
 
 ### Benchmarking Data Efficiency and Computational Efficiency of Temporal Action Localization Models
-Jan Warchocki<sup>\*</sup>, Teodor Oprescu<sup>\*</sup>, **Yunhan Wang<sup>\*</sup>**, Alexandru Damacus, Paul Misterka, [Robert-Jan Bruintjes](https://rjbruintjes.nl/), [Attila Lengyel](https://attila94.github.io/), [Ombretta Strafforello](https://cvlab-tudelft.github.io/people/ombretta-strafforello/), [Jan van Gemert](https://jvgemert.github.io/). ( * denotes equal contribution) ICCV-W, 2023.
+Jan Warchocki<sup>\*</sup>, Teodor Oprescu<sup>\*</sup>, **Yunhan Wang<sup>\*</sup>**, Alexandru Damacus, Paul Misterka, [Robert-Jan Bruintjes](https://rjbruintjes.nl/), [Attila Lengyel](https://attila94.github.io/), [Ombretta Strafforello](https://cvlab-tudelft.github.io/people/ombretta-strafforello/), [Jan van Gemert](https://jvgemert.github.io/). ( * denotes equal contribution) ICCV-W, 2023. [[Paper]](https://openaccess.thecvf.com/content/ICCV2023W/CVEU/papers/Warchocki_Benchmarking_Data_Efficiency_and_Computational_Efficiency_of_Temporal_Action_Localization_ICCVW_2023_paper.pdf)
 
