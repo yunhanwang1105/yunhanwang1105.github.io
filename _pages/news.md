@@ -4,6 +4,7 @@ title: "News"
 permalink: /news/
 author_profile: true
 ---
+[04.2024] I have been awarded the [Deutschlandstipendium Scholarship](https://uni-tuebingen.de/en/study/student-life/student-finances/deutschlandstipendium-scholarships/).
 
 [08.2023] One paper about my honours research is released on arXiv.
 
