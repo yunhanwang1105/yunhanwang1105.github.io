@@ -27,8 +27,6 @@ I am pursuing my Master's degree in Machine Learning at the [University of Tübi
 
 [08.2023] One paper is accepted at the [ICCV 2023 Workshop on AI for Creative Video Editing and Understanding](https://cveu.github.io/).
 
-[07.2023] I will start my Master's study in Machine Learning at the University of Tübingen from Sep. 2023. See you in Tübingen 🇩🇪.
-
 ## Selected Publications
 
 ### Investigation of Architectures and Receptive Fields for Appearance-based Gaze Estimation
