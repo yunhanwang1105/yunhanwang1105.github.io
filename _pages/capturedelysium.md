@@ -82,7 +82,7 @@ author_profile: true
 <img src="/images/elysiums/oeschinensee-2.jpg" alt="oeschinensee-2" title="oeschinensee-2" width="800" height="600" class="center"/> 
 
 <!-- <img src="/images/elysiums/oeschinensee-3.jpg" alt="oeschinensee-3" title="oeschinensee-3" width="800" height="600" class="center"/> -->
-
+<br/>
 <span style="color:IndianRed">What a great snowboarding season in Tignes and Val d'isere. (But unfortunately I broken my ankle there)</span>
 
 <img src="/images/elysiums/tignes-1.jpg" alt="tignes-1" title="tignes-1" width="800" height="600" class="center"/>
