@@ -21,7 +21,7 @@ I am pursuing my Master's degree in Machine Learning at the [University of Tübi
 
 ## Latest News
 
-[04.2024] I have been awarded the [Deutschlandstipendium Scholarship](https://uni-tuebingen.de/en/study/student-life/student-finances/deutschlandstipendium-scholarships/).
+[04.2024] I have been awarded the Amazon Future Engineer Scholarship & Deutschlandstipendium.
 
 [08.2023] One paper about my honours research is released on [arXiv](https://arxiv.org/abs/2308.09593).
 
