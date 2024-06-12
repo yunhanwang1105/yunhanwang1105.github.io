@@ -27,7 +27,7 @@ I am pursuing my Master's degree in Machine Learning at the [University of Tübi
 
 [08.2023] One paper is accepted at the [ICCV 2023 Workshop on AI for Creative Video Editing and Understanding](https://cveu.github.io/).
 
-## Selected Publications
+## Publications
 
 ### Investigation of Architectures and Receptive Fields for Appearance-based Gaze Estimation
 **Yunhan Wang**, [Xiangwei Shi](https://x-shi.github.io/), [Shalini De Mello](https://research.nvidia.com/person/shalini-de-mello), [Hyung Jin Chang](https://hyungjinchang.wordpress.com/), [Xucong Zhang](https://www.ccmitss.com/zhang). arXiv, 2023. [[Paper]](https://arxiv.org/abs/2308.09593) [[Code]](https://github.com/yunhanwang1105/GazeTech)
