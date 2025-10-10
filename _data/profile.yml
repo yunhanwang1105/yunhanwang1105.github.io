@@ -1,61 +1,57 @@
-primary_name: "Your Name"
+primary_name: "Yunhan Wang"
 secondary_name: ""
-navbar_name: "Your Name"
+navbar_name: "Yunhan Wang"
 
-positions:
-- logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
-  name: Position 1 with logo
-- name: Position 2 without logo
+# positions:
+# - name: Master's Student in Machine Learning
+#   institution: University of Tübingen
+# - name: AI Engineer Intern
+#   institution: mercura.ai
 
-
-email: "your@email.com"
+email: "yunhan-wang@outlook.com"
 # cv_link: link-to-your-cv-file
-gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
-github: your_github_id
-twitter: your_twitter_id  # Do not include the '@' symbol
+gscholar: # Add your Google Scholar ID here
+github: yunhanwang1105
+twitter: # Add your Twitter handle here if you have one
 # wechat_qrcode: /assets/images/etc/wechat.jpg
 # wechat_prompt: >-
 #   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
-# linkedin: your-linked-in-id
+linkedin: yunhan-wang-3a9539216
 # orcid: 0000-0000-0000-0000
 
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    A <a href="https://en.wikipedia.org/wiki/Bicolor_cat" target="_blank">bicolor cat</a> is a cat with white fur combined with fur of some other colour, for example solid black, tabby, or colourpointed.
+    I am pursuing my Master's degree in Machine Learning at the <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/studium/studiengaenge/machine-learning/" target="_blank">University of Tübingen</a>, Germany. I obtained my Bachelor's degree in Computer Science with Honours & Cum Laude (highest distinction) from the <a href="https://www.tudelft.nl/en/" target="_blank">Delft University of Technology</a>, Netherlands.
   </p>
   <p>
-    There are various patterns of a bicolour cat. These range from the Van-patterned (colour on the crown of the head 
-    and the tail only) to a solid colour with a throat locket or medallion. Bicolour coats are found in many cat breeds, 
-    as well as being common in domestic longhair and domestic shorthair cats.
+    I desire to glimpse new ways of seeing machine learning, especially its ability to explain the underlying mechanism of the world, and its human-centric applications.
   </p>
 
-portrait_url: /assets/images/photos/portrait.jpg
+portrait_url: /assets/images/photos/yunhan_profile_pic.png
 portrait_caption: >-
-  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+  Yunhan Wang
 
 education:
-- name: Massachusetts Institute of Technology
-  logo: /assets/images/badges/MIT_Social_circle.png
-  position: >- 
-    Department of Electrical Engineering and Computer Science <br/>
-    Ph.D. Student
-  date: Sep. 2024 - present
-- name: Peking University
-  logo: /assets/images/badges/PKU_red.png
-  position: B.S. in Computer Science
-  date: Sep. 2019 - Jul. 2021
+- name: University of Tübingen
+  logo: /assets/images/badges/Uni_Tuebingen.jpg
+  position: MSc in Machine Learning
+  date: Apr. 2024 - present
+- name: Delft University of Technology
+  logo: /assets/images/badges/TU_Delft.png
+  position: BSc in Computer Science
+  date: Sep. 2020 - Jul. 2023
 
 # experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Sep. 2019 - Jul. 2021
+# - name: mercura.ai
+#   logo: /assets/images/badges/mercura.png
+#   position: AI Engineer Intern
+#   date: Oct. 2024 - present
 
 awards:
-- name: Award Name 2
+- name: Amazon Future Engineer Scholarship & Deutschlandstipendium
   date: 2024
-- name: Award Name 1 
-  date: 2021
-- name: A quick brown fox jumps over the lazy dog and runs away award
-  date: 2021
+- name: Cum Laude - TU Delft
+  date: 2023
+- name: Honours Programme - TU Delft
+  date: 2023
