@@ -49,9 +49,11 @@ education:
 #   date: Oct. 2024 - present
 
 awards:
-- name: Amazon Future Engineer Scholarship & Deutschlandstipendium
+- name: Amazon Future Engineer Scholarship
+  date: 2024
+- name: Deutschlandstipendium
   date: 2024
 - name: Cum Laude - TU Delft
   date: 2023
-- name: Honours Programme - TU Delft
+- name: Honours Graduate - TU Delft
   date: 2023
