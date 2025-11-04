@@ -1,0 +1,19 @@
+---
+layout: default
+title : Projects
+navbar_title: Projects
+---
+
+{% assign projects_list = site.projects | sort: "date" | reverse | where: "show", true %}
+
+<div class="row">
+    <div class="col-12 col-lg-10">
+        <div class="my-0 p-0 bg-white shadow-sm rounded-xl">
+            {% for item in projects_list %}
+                {% include widgets/project_item.html item=item hide_bottom_border=forloop.last first=forloop.first last=forloop.last %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+
