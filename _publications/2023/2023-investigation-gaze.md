@@ -2,7 +2,7 @@
 title:          "Investigation of Architectures and Receptive Fields for Appearance-based Gaze Estimation"
 date:           2023-08-23 00:01:00 +0800
 selected:       true
-pub:            "arXiv"
+pub:            "arXiv, Technical Report"
 pub_date:       "2023"
 cover:          /assets/images/pub/gaze-estimation.png
 authors:
