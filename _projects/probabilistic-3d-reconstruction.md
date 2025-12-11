@@ -1,5 +1,6 @@
 ---
 show: true
+selected: true
 date: 2024-01-01
 name: Probabilistic 3D Reconstruction from Single RGBD Image
 photo: /assets/images/projects/Probabilistic_3D_Reconstruction.png

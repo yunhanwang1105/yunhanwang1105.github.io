@@ -1,5 +1,6 @@
 ---
 show: true
+selected: true
 date: 2024-05-30
 name: SMPL2Biomechanics
 photo: /assets/images/projects/smpl2biomechanics_pic.gif
