@@ -2,7 +2,7 @@
 title:          "Benchmarking Data Efficiency and Computational Efficiency of Temporal Action Localization Models"
 date:           2023-08-08 00:01:00 +0800
 selected:       true
-pub:            "International Conference on Computer Vision (ICCV) - CVEU Workshop"
+pub:            "CVEU @ International Conference on Computer Vision (ICCV) 2023"
 pub_date:       "2023"
 cover:          /assets/images/pub/benchmark-tal.png
 authors:
