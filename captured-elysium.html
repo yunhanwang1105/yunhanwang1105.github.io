@@ -11,66 +11,58 @@ navbar_title: Captured Elysium
             <p class="lead page-subtitle eyl-intro">I love capturing nice moments, especially magnificent nature. <span class="text-accent">Enjoy.</span></p>
 
             <nav class="eyl-nav" aria-label="Gallery index">
-                <div class="eyl-nav-label"><span class="eyl-nav-label-accent"></span>Jump to</div>
-                <div class="eyl-nav-pills">
-                    <a class="eyl-pill" href="#chamonix"><i class="fa-solid fa-mountain-sun"></i><span>Chamonix &amp; Mont-Blanc</span></a>
-                    <a class="eyl-pill" href="#interlaken"><i class="fa-solid fa-mountain"></i><span>Jungfrau &amp; Interlaken</span></a>
-                    <a class="eyl-pill" href="#netherlands"><i class="fa-solid fa-sun"></i><span>South Holland Summer</span></a>
-                    <a class="eyl-pill" href="#puer"><i class="fa-solid fa-mug-hot"></i><span>Pu'er, Yunnan</span></a>
-                    <a class="eyl-pill" href="#xishuangbanna"><i class="fa-solid fa-tree"></i><span>Xishuangbanna, Yunnan</span></a>
-                    <a class="eyl-pill" href="#bodensee"><i class="fa-solid fa-water"></i><span>Bodensee</span></a>
-                    <a class="eyl-pill" href="#bregenz"><i class="fa-solid fa-person-hiking"></i><span>Bregenz</span></a>
-                    <a class="eyl-pill" href="#oeschinensee"><i class="fa-solid fa-snowflake"></i><span>Oeschinensee</span></a>
-                    <a class="eyl-pill" href="#tignes"><i class="fa-solid fa-person-skiing"></i><span>Tignes &amp; Val d'Isère</span></a>
-                    <a class="eyl-pill" href="#mittenwald"><i class="fa-solid fa-campground"></i><span>Mittenwald</span></a>
-                    <a class="eyl-pill" href="#wonderfall"><i class="fa-solid fa-landmark"></i><span>Neuschwanstein &amp; Königssee</span></a>
-                    <a class="eyl-pill" href="#lisse"><i class="fa-solid fa-seedling"></i><span>Tulip Fields, Lisse</span></a>
-                </div>
+                <div class="eyl-nav-label">Jump to</div>
+                <ul class="eyl-nav-list">
+                    <li><a class="eyl-link" href="#chamonix">Chamonix &amp; Mont-Blanc</a></li>
+                    <li><a class="eyl-link" href="#interlaken">Jungfrau &amp; Interlaken</a></li>
+                    <li><a class="eyl-link" href="#netherlands">South Holland Summer</a></li>
+                    <li><a class="eyl-link" href="#puer">Pu'er, Yunnan</a></li>
+                    <li><a class="eyl-link" href="#xishuangbanna">Xishuangbanna, Yunnan</a></li>
+                    <li><a class="eyl-link" href="#bodensee">Bodensee</a></li>
+                    <li><a class="eyl-link" href="#bregenz">Bregenz</a></li>
+                    <li><a class="eyl-link" href="#oeschinensee">Oeschinensee</a></li>
+                    <li><a class="eyl-link" href="#tignes">Tignes &amp; Val d'Isère</a></li>
+                    <li><a class="eyl-link" href="#mittenwald">Mittenwald</a></li>
+                    <li><a class="eyl-link" href="#wonderfall">Neuschwanstein &amp; Königssee</a></li>
+                    <li><a class="eyl-link" href="#lisse">Tulip Fields, Lisse</a></li>
+                </ul>
             </nav>
 
             <script>
                 (function () {
                     document.addEventListener('DOMContentLoaded', function () {
-                        var pills = document.querySelectorAll('.eyl-nav .eyl-pill');
+                        var links = document.querySelectorAll('.eyl-nav .eyl-link');
                         var map = {};
-                        pills.forEach(function (p) {
-                            var id = p.getAttribute('href').replace('#', '');
-                            map[id] = p;
+                        links.forEach(function (a) {
+                            var id = a.getAttribute('href').replace('#', '');
+                            map[id] = a;
                         });
                         var targets = Object.keys(map).map(function (id) { return document.getElementById(id); }).filter(Boolean);
                         if (!('IntersectionObserver' in window) || targets.length === 0) return;
 
                         var setActive = function (id) {
-                            pills.forEach(function (p) { p.classList.remove('is-active'); });
-                            if (id && map[id]) {
-                                map[id].classList.add('is-active');
-                                if (map[id].scrollIntoView) {
-                                    map[id].scrollIntoView({ block: 'nearest', inline: 'center', behavior: 'smooth' });
-                                }
-                            }
+                            links.forEach(function (a) { a.classList.remove('is-active'); });
+                            if (id && map[id]) map[id].classList.add('is-active');
                         };
 
                         var visible = new Map();
                         var io = new IntersectionObserver(function (entries) {
                             entries.forEach(function (e) {
-                                if (e.isIntersecting) {
-                                    visible.set(e.target.id, e.intersectionRatio);
-                                } else {
-                                    visible.delete(e.target.id);
-                                }
+                                if (e.isIntersecting) visible.set(e.target.id, e.intersectionRatio);
+                                else visible.delete(e.target.id);
                             });
                             var top = null, best = -1;
                             visible.forEach(function (ratio, id) {
                                 if (ratio > best) { best = ratio; top = id; }
                             });
                             if (top) setActive(top);
-                        }, { rootMargin: '-35% 0px -55% 0px', threshold: [0, 0.1, 0.25, 0.5, 0.75, 1] });
+                        }, { rootMargin: '-30% 0px -60% 0px', threshold: [0, 0.25, 0.5, 0.75, 1] });
 
                         targets.forEach(function (t) { io.observe(t); });
 
-                        pills.forEach(function (p) {
-                            p.addEventListener('click', function () {
-                                setActive(p.getAttribute('href').replace('#', ''));
+                        links.forEach(function (a) {
+                            a.addEventListener('click', function () {
+                                setActive(a.getAttribute('href').replace('#', ''));
                             });
                         });
                     });

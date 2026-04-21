@@ -137,176 +137,86 @@ div.lazy {
     margin-bottom: 0.5rem;
 }
 
-/* Captured Elysium: sticky gallery index */
+/* Captured Elysium: minimalist vertical side index */
 .eyl-nav {
-    position: sticky;
-    top: 4.75rem; /* sits just under the fixed navbar */
+    position: fixed;
+    top: 6.5rem;
+    left: 1.25rem;
     z-index: 1020;
-    background:
-        linear-gradient(135deg, rgba(255, 236, 229, 0.85) 0%, rgba(255, 255, 255, 0.85) 55%, rgba(255, 244, 230, 0.85) 100%),
-        rgba(255, 255, 255, 0.6);
-    backdrop-filter: saturate(180%) blur(14px);
-    -webkit-backdrop-filter: saturate(180%) blur(14px);
-    border: 1px solid rgba(205, 92, 92, 0.18);
-    border-radius: 1rem;
-    box-shadow:
-        0 1px 2px rgba(0, 0, 0, 0.04),
-        0 8px 24px -12px rgba(205, 92, 92, 0.25);
-    padding: 0.65rem 0.9rem;
-    margin: 0.5rem 0 1.25rem;
-    display: flex;
-    align-items: center;
-    gap: 0.85rem;
-    position: sticky;
-    overflow: hidden;
+    width: 11.5rem;
+    max-height: calc(100vh - 8rem);
+    overflow-y: auto;
+    padding: 0.25rem 0.25rem 0.25rem 0.75rem;
+    border-left: 1px solid rgba(0, 0, 0, 0.08);
+    background: transparent;
+    scrollbar-width: thin;
 }
 
-.eyl-nav::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    pointer-events: none;
-    background: radial-gradient(120% 60% at 0% 0%, rgba(205, 92, 92, 0.10), transparent 60%);
-    opacity: 0.9;
+.eyl-nav::-webkit-scrollbar {
+    width: 2px;
+}
+
+.eyl-nav::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.12);
 }
 
 .eyl-nav-label {
-    flex: 0 0 auto;
-    position: relative;
-    font-weight: 800;
-    color: #6c3a3a;
-    font-size: 0.8rem;
-    letter-spacing: 1.2px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
     text-transform: uppercase;
-    padding-left: 0.65rem;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+    color: #adb5bd;
+    margin-bottom: 0.75rem;
+    padding-left: 0.1rem;
 }
 
-.eyl-nav-label-accent {
-    display: inline-block;
-    width: 3px;
-    height: 1.1rem;
-    border-radius: 3px;
-    background: linear-gradient(180deg, IndianRed, #e89b8a);
-    box-shadow: 0 0 8px rgba(205, 92, 92, 0.4);
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
+.eyl-nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-.eyl-nav-pills {
+.eyl-nav-list li {
+    margin: 0;
+}
+
+.eyl-link {
+    display: block;
     position: relative;
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 0.45rem;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: thin;
-    scroll-behavior: smooth;
-    padding: 0.15rem 0.25rem;
-    mask-image: linear-gradient(to right, transparent 0, #000 14px, #000 calc(100% - 14px), transparent 100%);
-    -webkit-mask-image: linear-gradient(to right, transparent 0, #000 14px, #000 calc(100% - 14px), transparent 100%);
-}
-
-.eyl-nav-pills::-webkit-scrollbar {
-    height: 4px;
-}
-
-.eyl-nav-pills::-webkit-scrollbar-thumb {
-    background: rgba(205, 92, 92, 0.3);
-    border-radius: 3px;
-}
-
-.eyl-pill {
-    flex: 0 0 auto;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.4rem;
-    padding: 0.35rem 0.85rem;
-    border-radius: 999px;
-    background: #ffffff;
-    color: #5a4744;
-    font-size: 0.85rem;
-    font-weight: 500;
-    line-height: 1.2;
-    white-space: nowrap;
+    padding: 0.3rem 0 0.3rem 0.1rem;
+    font-size: 0.82rem;
+    line-height: 1.35;
+    color: #adb5bd;
     text-decoration: none;
-    border: 1px solid rgba(205, 92, 92, 0.15);
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
-    transition:
-        transform 0.22s cubic-bezier(0.2, 0.7, 0.2, 1),
-        box-shadow 0.22s ease,
-        background-color 0.22s ease,
-        color 0.22s ease,
-        border-color 0.22s ease;
+    border-left: 2px solid transparent;
+    margin-left: -0.75rem;
+    padding-left: 0.75rem;
+    transition: color 0.2s ease, border-color 0.2s ease, padding-left 0.2s ease;
 }
 
-.eyl-pill i {
+.eyl-link:hover,
+.eyl-link:focus {
+    color: #495057;
+    text-decoration: none;
+    padding-left: 0.95rem;
+}
+
+.eyl-link.is-active {
     color: IndianRed;
-    font-size: 0.85rem;
-    transition: transform 0.3s cubic-bezier(0.2, 0.7, 0.2, 1), color 0.22s ease;
+    border-left-color: IndianRed;
+    font-weight: 600;
 }
 
-.eyl-pill:hover,
-.eyl-pill:focus {
-    text-decoration: none;
-    color: #7a2e2e;
-    background: #fff5f1;
-    border-color: rgba(205, 92, 92, 0.45);
-    box-shadow: 0 6px 14px -6px rgba(205, 92, 92, 0.45);
-    transform: translateY(-2px);
-}
-
-.eyl-pill:hover i,
-.eyl-pill:focus i {
-    transform: scale(1.15) rotate(-6deg);
-}
-
-.eyl-pill:active {
-    transform: translateY(0);
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08) inset;
-}
-
-.eyl-pill.is-active {
-    background: linear-gradient(135deg, IndianRed 0%, #d46a5a 100%);
-    color: #fff;
-    border-color: transparent;
-    box-shadow:
-        0 6px 18px -6px rgba(205, 92, 92, 0.65),
-        0 0 0 3px rgba(205, 92, 92, 0.12);
-    transform: translateY(-1px);
-}
-
-.eyl-pill.is-active i {
-    color: #fff;
-}
-
-@media (max-width: 575.98px) {
+/* Hide the side index on smaller screens to keep focus on images */
+@media (max-width: 1199.98px) {
     .eyl-nav {
-        flex-direction: column;
-        align-items: stretch;
-        gap: 0.5rem;
-        top: 4rem;
-        padding: 0.6rem 0.65rem;
-    }
-    .eyl-nav-label {
-        font-size: 0.72rem;
-    }
-    .eyl-nav-pills {
-        padding-bottom: 0.25rem;
-    }
-    .eyl-pill {
-        font-size: 0.8rem;
-        padding: 0.3rem 0.7rem;
+        display: none;
     }
 }
 
-/* Offset so anchor links land below the fixed navbar and sticky index */
+/* Offset so anchor links land below the fixed navbar */
 .eyl-anchor {
-    scroll-margin-top: 9rem;
+    scroll-margin-top: 6rem;
 }
 
 html {
