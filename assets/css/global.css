@@ -214,8 +214,19 @@ div.lazy {
     }
 }
 
-/* Offset so anchor links land below the fixed navbar */
-.eyl-anchor {
+/* Offset so anchor links land on the section title, below the fixed navbar */
+#chamonix,
+#interlaken,
+#netherlands,
+#puer,
+#xishuangbanna,
+#bodensee,
+#bregenz,
+#oeschinensee,
+#tignes,
+#mittenwald,
+#wonderfall,
+#lisse {
     scroll-margin-top: 6rem;
 }
 
