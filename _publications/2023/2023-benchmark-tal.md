@@ -18,5 +18,3 @@ authors:
 links:
   Paper: https://openaccess.thecvf.com/content/ICCV2023W/CVEU/papers/Warchocki_Benchmarking_Data_Efficiency_and_Computational_Efficiency_of_Temporal_Action_Localization_ICCVW_2023_paper.pdf
 ---
-
-Jan Warchocki<sup>\*</sup>, Teodor Oprescu<sup>\*</sup>, **Yunhan Wang<sup>\*</sup>**, Alexandru Damacus<sup>\*</sup>, Paul Misterka<sup>\*</sup>, [Robert-Jan Bruintjes](https://rjbruintjes.nl/), [Attila Lengyel](https://attila94.github.io/), [Ombretta Strafforello](https://cvlab-tudelft.github.io/people/ombretta-strafforello/), [Jan van Gemert](https://jvgemert.github.io/). ( * denotes equal contribution). [[Paper]](https://openaccess.thecvf.com/content/ICCV2023W/CVEU/papers/Warchocki_Benchmarking_Data_Efficiency_and_Computational_Efficiency_of_Temporal_Action_Localization_ICCVW_2023_paper.pdf)
