@@ -4,7 +4,7 @@ date:           2026-03-23 00:01:00 +0800
 selected:       true
 pub:            "ECCV"
 pub_date:       "2026"
-cover:          /assets/images/pub/decode-scaling.png
+cover:          /assets/images/pub/decode_teaser_figure.png
 authors:
 - Yunhan Wang
 - Eshika Khandelwal
