@@ -4,7 +4,7 @@ date:           2023-08-23 00:01:00 +0800
 selected:       true
 pub:            "arXiv, Technical Report"
 pub_date:       "2023"
-cover:          /assets/images/pub/gaze-estimation.png
+cover:          /assets/images/pub/gaze-tech.png
 authors:
 - Yunhan Wang
 - Xiangwei Shi
