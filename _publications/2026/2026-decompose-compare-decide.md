@@ -13,6 +13,7 @@ authors:
 - Nina Shvetsova
 - Hilde Kuehne
 links:
-  Paper: 
-  Code: 
+  Project Page: /publications/DeCoDe/
+  Paper: https://arxiv.org/abs/2607.00125
+  Code: https://github.com/yunhanwang1105/DeCoDe
 ---

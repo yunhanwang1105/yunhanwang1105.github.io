@@ -1,0 +1,149 @@
+---
+layout: null
+title: "Decompose, Compare, and Decide: Multimodal LLMs are Implicit Few-Shot Learners"
+permalink: /publications/DeCoDe/
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>{{ page.title }}</title>
+  <link rel="icon" type="image/jpeg" href="{{ '/assets/images/publications/decode/eccv26_logo.jpeg' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Source+Sans+3:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css">
+  <style>
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; color: #202124; background: #fff; font-family: "Lato", Arial, sans-serif; line-height: 1.65; }
+    a { color: #2468a2; }
+    .decode-page { width: min(1040px, calc(100% - 2.5rem)); margin: 0 auto; padding-bottom: 3rem; }
+    .decode-header { text-align: center; padding: 2.5rem 0 1rem; }
+    .decode-logo { display: block; width: 175px; height: auto; margin: 0 auto 1.35rem; }
+    .decode-title { margin: 0; font-family: "Source Sans 3", Arial, sans-serif; font-size: 2.95rem; line-height: 1.18; font-weight: 500; }
+    .decode-title-accent { color: #5b5f97; font-weight: 700; }
+    .decode-venue { margin: .85rem 0 .65rem; color: #173f7a; font-size: 1.50rem; font-weight: 700; }
+    .decode-authors { font-size: 1.18rem; line-height: 1.9; }
+    .decode-authors a, .decode-authors span { color: #202124 !important; text-decoration: none; }
+    .decode-authors a:hover { color: #2468a2 !important; text-decoration: underline; }
+    .decode-affiliation { margin-top: .15rem; color: #62666b; font-size: 1.08rem; }
+    .decode-links { display: flex; justify-content: center; flex-wrap: wrap; gap: .65rem; margin-top: 1rem; }
+    .decode-button { display: inline-flex; align-items: center; justify-content: center; gap: .35rem; min-width: 5.8rem; padding: .4rem .78rem; color: #fff; background: #292d32; border-radius: 999px; font-size: .9rem; font-weight: 700; text-decoration: none; transition: background .15s ease; }
+    .decode-button:hover { color: #fff; background: #444a51; }
+    .decode-section { margin: 2.75rem 0; }
+    .decode-section h2 { margin: 0 0 .8rem; font-size: 1.65rem; line-height: 1.3; }
+    .decode-figure { display: block; max-width: 100%; height: auto; margin: 0 auto; }
+    .decode-teaser { width: 86%; }
+    .decode-radar { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(240px, .85fr); gap: 2.25rem; align-items: center; }
+    .decode-findings { margin: 0; padding-left: 1.25rem; }
+    .decode-findings li { margin-bottom: .8rem; }
+    .decode-result { margin-top: 2.25rem; }
+    .decode-result h3 { margin: 0 0 .75rem; font-size: 1.2rem; }
+    .decode-result p { margin: 0; }
+    .decode-result-wide { width: 82%; }
+    .decode-result-wide-heading { width: 82%; margin: .85rem auto 0 !important; }
+    .decode-result-wide-copy { width: 82%; margin: .85rem auto 0 !important; }
+    .decode-result-row { display: grid; grid-template-columns: minmax(0, .9fr) minmax(280px, 1.1fr); gap: 2.25rem; align-items: center; }
+    .decode-result-small { width: 86%; }
+    .decode-result-video { width: 75%; }
+    .decode-bibtex { margin: 0; padding: 1rem; overflow-x: auto; background: #f5f6f7; border: 1px solid #e5e7e9; border-radius: .55rem; font-size: .86rem; line-height: 1.45; white-space: pre; }
+    #bibtex { scroll-margin-top: 1.5rem; }
+    @media (max-width: 720px) {
+      .decode-page { width: min(100% - 1.5rem, 1040px); }
+      .decode-header { padding-top: 1.5rem; }
+      .decode-logo { width: 135px; }
+      .decode-title { font-size: 1.8rem; }
+      .decode-teaser { width: 100%; }
+      .decode-radar { grid-template-columns: 1fr; gap: 1.5rem; }
+      .decode-result-wide, .decode-result-wide-heading, .decode-result-wide-copy, .decode-result-small, .decode-result-video { width: 92%; }
+      .decode-result-row { grid-template-columns: 1fr; gap: 1.25rem; }
+    }
+  </style>
+</head>
+<body>
+  <main class="decode-page">
+    <header class="decode-header">
+      <img class="decode-logo" src="{{ '/assets/images/publications/decode/eccv26_logo.jpeg' | relative_url }}" alt="ECCV 2026">
+      <h1 class="decode-title"><span class="decode-title-accent">De</span>compose, <span class="decode-title-accent">Co</span>mpare, and <span class="decode-title-accent">De</span>cide:<br>Multimodal LLMs are Implicit Few-Shot Learners</h1>
+      <div class="decode-venue">ECCV 2026</div>
+      <div class="decode-authors">
+        {% assign decode_authors = "Yunhan Wang|Eshika Khandelwal|Edson Araujo|Walid Bousselham|Nina Shvetsova|Hilde Kuehne" | split: "|" %}
+        {% include widgets/author_list.html authors=decode_authors %}
+      </div>
+      <div class="decode-affiliation">Tübingen AI Center, University of Tübingen, Germany</div>
+      <nav class="decode-links" aria-label="Paper links">
+        <a class="decode-button" href="https://arxiv.org/abs/2607.00125" target="_blank" rel="noopener"><i class="ai ai-arxiv"></i> arXiv</a>
+        <a class="decode-button" href="https://github.com/yunhanwang1105/DeCoDe" target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a>
+        <a class="decode-button" href="#bibtex"><i class="fas fa-quote-right"></i> BibTeX</a>
+      </nav>
+    </header>
+
+    <section class="decode-section" aria-label="Method overview">
+      <img class="decode-figure decode-teaser" src="{{ '/assets/images/publications/decode/teaser_figure.png' | relative_url }}" alt="Comparison of standard in-context prompting and DeCoDe's pairwise support-query prompting">
+    </section>
+
+    <section class="decode-section">
+      <h2>Abstract</h2>
+      <p>Multimodal Large Language Models (MLLMs) have demonstrated remarkable abilities when analyzing images, yet translating these capabilities to few-shot image classification remains challenging. To bridge this gap, we present <span class="decode-title-accent">DeCoDe</span>, a simple yet effective technique that enables off-the-shelf MLLMs to act as strong few-shot classifiers without any additional training. Our approach builds on the idea of few-shot classification as a set of pairwise image comparisons, decomposing the task into a set of binary decisions. Given a query image and a support image from a candidate class, the MLLM is prompted to decide whether the two images depict the same class. The logit corresponding to an affirmative response is then used as a similarity score to assign the query image to the most likely class. While this already yields good results, we show that providing additional high-level information, such as the data domain, to the model further improves performance. Our evaluation provides an extensive analysis of various inference variants on a suite of twelve datasets, six established and six newly curated few-shot benchmarks spanning across diverse domains. The results show that the proposed simple decomposition technique can turn off-the-shelf MLLMs into powerful few-shot learners, significantly outperforming current state-of-the-art few-shot methods on both standard and novel domains.</p>
+    </section>
+
+    <section class="decode-section">
+      <h2>Results Overview</h2>
+      <div class="decode-radar">
+        <img class="decode-figure" src="{{ '/assets/images/publications/decode/sota_radars_overview.png' | relative_url }}?v=20260705" alt="Radar charts comparing DeCoDe with direct prompting and few-shot baselines on standard and novel datasets">
+        <ul class="decode-findings">
+          <li>MLLMs can already achieve saturated performance 0-shot on standard datasets, while 1-shot hurts performance. Indicating strong dominance of semantic prior.</li>
+          <li>The trend reverses on novel datasets, where 1-shot prompting is beneficial, but DeCoDe still outperforms it.</li>
+          <li>When switching to anonymous class labels, 1-shot prompting collapses to near-random, DeCoDe maintains its effectiveness.</li>
+          <li>Dataset-domain information generally provides an additional gain, especially on novel domains.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="decode-section">
+      <h2>Additional Results</h2>
+
+      <div class="decode-result">
+        <img class="decode-figure decode-result-wide" src="{{ '/assets/images/publications/decode/5w-ks.png' | relative_url }}" alt="Five-way one-shot and five-shot classification results on Yoga, Lego, and Industrial datasets">
+        <h3 class="decode-result-wide-heading">Scaling with more shots</h3>
+        <p class="decode-result-wide-copy">With more support examples, direct in-context prompting drops from 73.9% to 50.2% average accuracy. DeCoDe with domain information instead improves from 80.6% to 85.8%, surpassing the supervised fine-tuning baseline.</p>
+      </div>
+
+      <div class="decode-result decode-result-row">
+        <img class="decode-figure decode-result-small" src="{{ '/assets/images/publications/decode/n_way_accuracy.png' | relative_url }}" alt="Accuracy of in-context prompting and DeCoDe as the number of classes increases">
+        <div>
+          <h3>Scaling with the number of classes</h3>
+          <p>As the task grows from 3-way to 20-way classification, in-context accuracy deteriorates sharply. DeCoDe remains substantially more robust across standard and novel datasets, with the performance gap widening at larger values of <em>N</em>.</p>
+        </div>
+      </div>
+
+      <div class="decode-result decode-result-row">
+        <img class="decode-figure decode-result-video" src="{{ '/assets/images/publications/decode/video_result.png' | relative_url }}" alt="Few-shot video classification results on UCF101 and Diving48">
+        <div>
+          <h3>Few-shot video classification</h3>
+          <p>UCF101 is already near saturation for Qwen2.5-VL. On the more fine-grained and temporally sensitive Diving48 dataset, decomposed 1-shot prompting improves accuracy from 24.7% to 35.5%, indicating that the approach also extends to few-shot action recognition, while the model has not been trained on multi-video input and highly dynamic videos.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="decode-section" id="bibtex">
+      <h2>BibTeX</h2>
+      <pre class="decode-bibtex"><code>@misc{wang2026decomposecomparedecidemultimodal,
+      title={Decompose, Compare, and Decide: Multimodal LLMs are Implicit Few-Shot Learners}, 
+      author={Yunhan Wang and Eshika Khandelwal and Edson Araujo and Walid Bousselham and Nina Shvetsova and Hilde Kuehne},
+      year={2026},
+      eprint={2607.00125},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2607.00125}, 
+}</code></pre>
+    </section>
+  </main>
+</body>
+</html>
